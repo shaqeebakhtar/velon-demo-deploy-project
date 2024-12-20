@@ -16,9 +16,10 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React (Update)</h1>
+      <h1>Vite + React</h1>
+      <p className="read-the-docs">Increase count by 10</p>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 2)}>
+        <button onClick={() => setCount((count) => count + 10)}>
           count is {count}
         </button>
         <p>
